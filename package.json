@@ -1,0 +1,21 @@
+{
+  "name": "ds",
+  "version": "1.0.0",
+  "description": "algorithms and complexities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "win:t1": "node t1/index.js file=%npm_config_file%",
+    "t1": "node t1/index.js file=$npm_config_file"
+  },
+  "repository": {
+    "type": "git",
+    "url": "algojs"
+  },
+  "keywords": [
+    "dsa",
+    "javascript"
+  ],
+  "author": "rv",
+  "license": "ISC"
+}
