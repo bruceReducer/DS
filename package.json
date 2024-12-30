@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "win:t1": "node t3/index.js file=%npm_config_file%",
-    "t1": "node t3/index.js file=$npm_config_file"
+    "t1": "node t3/index.js file=$npm_config_file",
+    "nodemon:t1": "nodemon t3/index.js file=$npm_config_file"
   },
   "repository": {
     "type": "git",
